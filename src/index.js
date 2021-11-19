@@ -56,7 +56,7 @@ const download = () =>{
 		const image = canvas.toDataURL();
 		const link = document.createElement("a");
 		link.href = image;
-		link.download = "badge.png";
+		link.download = "badge-"+name+".png";
 		link.click();
 	}
 	else{
