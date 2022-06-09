@@ -46,7 +46,7 @@ document.getElementById("uploader").addEventListener("change", uploadImage);
 document.getElementById("name").addEventListener("change", ()=> {
 	name = document.getElementById("name").value.toLowerCase();
 });
-const members = ["priti", "chaitanya", "shreyas", "om", "samarthi", "sanket", "gautam", "rutuja", "ambika", "rakesh", "pulkit", "sameer", "devyani", "pankaja", "shanya", "sahil", "shivkumar", "akash", "tejal", "chakradhar", "sanskriti", "saurabh", "namrata"];
+const members = ["priti", "swapnil", "gajanan", "chaitanya", "shreyas", "om", "samarthi", "sanket", "gautam", "rutuja", "ambika", "rakesh", "pulkit", "sameer", "devyani", "pankaja", "shanya", "sahil", "shivkumar", "akash", "tejal", "chakradhar", "sanskriti", "saurabh", "namrata"];
 
 const isValid = (member) => {
 	return member == name;
